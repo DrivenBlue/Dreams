@@ -1,0 +1,17 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Fading.cs">
+    <Files>
+      <File FileName="Assets/Used Scripts/MusicCollider.js" Line="1" Column="1" />
+      <File FileName="Assets/Used Scripts/NPCDialog.js" Line="1" Column="1" />
+      <File FileName="Assets/Used Scripts/PortalScenario1.cs" Line="1" Column="1" />
+      <File FileName="Assets/Used Scripts/StepThroughPortal.cs" Line="1" Column="1" />
+      <File FileName="Assets/Used Scripts/FogBeat.cs" Line="1" Column="1" />
+      <File FileName="Assets/Fading.cs" Line="6" Column="17" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

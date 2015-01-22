@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{3EF93C05-E04F-37EF-CC2A-7563D6A19679}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_6_0;UNITY_4_6;UNITY_STANDALONE_OSX;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_GAMECENTER;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_OSX</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\AssetPacks\DissolveShader\DemoSzene\Timed.cs" />
+     <Compile Include="Assets\AssetPacks\Elementals\Scripts\OrbitCamera.cs" />
+     <Compile Include="Assets\AssetPacks\Elementals\Scripts\TestParticles.cs" />
+     <Compile Include="Assets\AssetPacks\MakeAGameNow-master\Assets\Scripts\ColumnBeat.cs" />
+     <Compile Include="Assets\AssetPacks\MakeAGameNow-master\Assets\Scripts\CycleMaterialColor.cs" />
+     <Compile Include="Assets\AssetPacks\MakeAGameNow-master\Assets\Scripts\DestroyOnInvisible.cs" />
+     <Compile Include="Assets\AssetPacks\MakeAGameNow-master\Assets\Scripts\DestroyParticleWhenDone.cs" />
+     <Compile Include="Assets\AssetPacks\MakeAGameNow-master\Assets\Scripts\DestroyUnderZValue.cs" />
+     <Compile Include="Assets\AssetPacks\MakeAGameNow-master\Assets\Scripts\DetectTouchesAndClicks.cs" />
+     <Compile Include="Assets\AssetPacks\MakeAGameNow-master\Assets\Scripts\DisplayCurrentHighScore.cs" />
+     <Compile Include="Assets\AssetPacks\MakeAGameNow-master\Assets\Scripts\DisplayGameOver.cs" />
+     <Compile Include="Assets\AssetPacks\MakeAGameNow-master\Assets\Scripts\DisplayHighScore.cs" />
+     <Compile Include="Assets\AssetPacks\MakeAGameNow-master\Assets\Scripts\DisplayPreviousScore.cs" />
+     <Compile Include="Assets\AssetPacks\MakeAGameNow-master\Assets\Scripts\DisplayScore.cs" />
+     <Compile Include="Assets\AssetPacks\MakeAGameNow-master\Assets\Scripts\GameManager.cs" />
+     <Compile Include="Assets\AssetPacks\MakeAGameNow-master\Assets\Scripts\GibOnTrigger.cs" />
+     <Compile Include="Assets\AssetPacks\MakeAGameNow-master\Assets\Scripts\HSBColor.cs" />
+     <Compile Include="Assets\AssetPacks\MakeAGameNow-master\Assets\Scripts\LoadLevelOnAnyKey.cs" />
+     <Compile Include="Assets\AssetPacks\MakeAGameNow-master\Assets\Scripts\LoadLevelOnTouched.cs" />
+     <Compile Include="Assets\AssetPacks\MakeAGameNow-master\Assets\Scripts\MatchMaterialColor.cs" />
+     <Compile Include="Assets\AssetPacks\MakeAGameNow-master\Assets\Scripts\Move.cs" />
+     <Compile Include="Assets\AssetPacks\MakeAGameNow-master\Assets\Scripts\MoveBasedOnGameSpeed.cs" />
+     <Compile Include="Assets\AssetPacks\MakeAGameNow-master\Assets\Scripts\MoveLeftAndRight.cs" />
+     <Compile Include="Assets\AssetPacks\MakeAGameNow-master\Assets\Scripts\PlaySoundOnInput.cs" />
+     <Compile Include="Assets\AssetPacks\MakeAGameNow-master\Assets\Scripts\PlaySoundOnTrigger.cs" />
+     <Compile Include="Assets\AssetPacks\MakeAGameNow-master\Assets\Scripts\PseudoInput.cs" />
+     <Compile Include="Assets\AssetPacks\MakeAGameNow-master\Assets\Scripts\PseudoInputOnTouch.cs" />
+     <Compile Include="Assets\AssetPacks\MakeAGameNow-master\Assets\Scripts\PseudoMoveLeftAndRight.cs" />
+     <Compile Include="Assets\AssetPacks\MakeAGameNow-master\Assets\Scripts\RandomlySpawn.cs" />
+     <Compile Include="Assets\AssetPacks\MakeAGameNow-master\Assets\Scripts\RotateBasedOnInput.cs" />
+     <Compile Include="Assets\AssetPacks\MakeAGameNow-master\Assets\Scripts\ScaleOverTime.cs" />
+     <Compile Include="Assets\AssetPacks\MakeAGameNow-master\Assets\Scripts\Shoot.cs" />
+     <Compile Include="Assets\AssetPacks\MakeAGameNow-master\Assets\Scripts\SpectrumData.cs" />
+     <Compile Include="Assets\AssetPacks\MakeAGameNow-master\Assets\Scripts\TakeScreenshots.cs" />
+     <Compile Include="Assets\AssetPacks\MakeAGameNow-master\Assets\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
+     <Compile Include="Assets\AssetPacks\MakeAGameNow-master\Assets\Standard Assets\Scripts\General Scripts\ActivateTrigger.cs" />
+     <Compile Include="Assets\AssetPacks\TerrainShader\atsV2 UnityTerrainBump Package\CustomTerrainScriptAtsV2.cs" />
+     <Compile Include="Assets\Fading.cs" />
+     <Compile Include="Assets\Used Scripts\AnimateTexture.cs" />
+     <Compile Include="Assets\Used Scripts\CycleFogColor.cs" />
+     <Compile Include="Assets\Used Scripts\FogBeat.cs" />
+     <Compile Include="Assets\Used Scripts\PortalScenario1.cs" />
+     <Compile Include="Assets\Used Scripts\PortalScenario2.cs" />
+     <Compile Include="Assets\Used Scripts\SpectrumAnalyzerReal.cs" />
+     <Compile Include="Assets\Used Scripts\StepThroughPortal.cs" />
+     <None Include="Assets\AssetPacks\TerrainShader\readme_treeBarkShader.txt" />
+     <None Include="Assets\Standard Assets\Projectors\Guidelines.txt" />
+     <None Include="Assets\AssetPacks\Hard Surface Free\HardSurface Shaders\HardSurfacePro Hidden Front Cut Out Specular.shader" />
+     <None Include="Assets\AssetPacks\Hard Surface Free\HardSurface Shaders\HardSurface Free Cut Out Opaque Bump.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Multiply Culled.shader" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders\Mobile Background.shader" />
+     <None Include="Assets\RAIN\Editor\Shaders\AspectSphereShader.shader" />
+     <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Multiply.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Vertex Colored Shaders\Mobile Transparent Vertex Color.shader" />
+     <None Include="Assets\AssetPacks\MakeAGameNow-master\Assets\Shaders\Normal-Diffuse.shader" />
+     <None Include="Assets\AssetPacks\MakeAGameNow-master\Assets\Shaders\Particle Add.shader" />
+     <None Include="Assets\AssetPacks\Hard Surface Free\HardSurface Shaders\HardSurfacePro Hidden Front Transparent.shader" />
+     <None Include="Assets\AssetPacks\MakeAGameNow-master\Documents\SubmissionText.txt" />
+     <None Include="Assets\AssetPacks\Hard Surface Free\HardSurface Shaders\HardSurfacePro Hidden Front Transparent Specular.shader" />
+     <None Include="Assets\AssetPacks\TerrainShader\readme_grassShader.txt" />
+     <None Include="Assets\AssetPacks\Hard Surface Free\HardSurface Shaders\HardSurface Free Transparent Specular.shader" />
+     <None Include="Assets\AssetPacks\Hard Surface Free\HardSurface Shaders\HardSurface Free Transparent Bump.shader" />
+     <None Include="Assets\AssetPacks\TerrainShader\atsV2 billboardShader package\TreeCreatorLeavesRendertex.shader" />
+     <None Include="Assets\AssetPacks\TerrainShader\atsV2 billboardShader package\TreeCreatorBarkRendertex.shader" />
+     <None Include="Assets\Standard Assets\Tessellation Shaders\BumpedSpecularSmooth.shader" />
+     <None Include="Assets\AssetPacks\TerrainShader\ats pathShader Package\Shader\ats Road Path bumped diffuse alphatest.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders\Mobile Detail.shader" />
+     <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+     <None Include="Assets\AssetPacks\Hard Surface Free\HardSurface Shaders\HardSurfacePro Hidden Front Cut Out Opaque Bump.shader" />
+     <None Include="Assets\AssetPacks\Hard Surface Free\HardSurface Shaders\HardSurface Free Opaque.shader" />
+     <None Include="Assets\AssetPacks\Hard Surface Free\HardSurface Shaders\HardSurface Free Cut Out Diffuse.shader" />
+     <None Include="Assets\RAIN\Editor\Shaders\VisualSensorLineShader.shader" />
+     <None Include="Assets\AssetPacks\TerrainShader\ats vertexLitShader Package\Shader\atsv2 vertexlit.shader" />
+     <None Include="Assets\AssetPacks\TerrainShader\atsV2 grassShader Package\atsV2WavingGrass.shader" />
+     <None Include="Assets\AssetPacks\MakeAGameNow-master\Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\AssetPacks\Hard Surface Free\HardSurface Shaders\HardSurface Free Cut Out Opaque Diffuse.shader" />
+     <None Include="Assets\AssetPacks\DissolveShader\Shader\Dissolve_WorldCoords.shader" />
+     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\AssetPacks\TerrainShader\readme_billboardShader.txt" />
+     <None Include="Assets\AssetPacks\Hard Surface Free\HardSurface Shaders\HardSurfacePro Hidden Front Opaque Bump.shader" />
+     <None Include="Assets\AssetPacks\Hard Surface Free\HardSurface Shaders\HardSurface Free Transparent.shader" />
+     <None Include="Assets\AssetPacks\TerrainShader\atsV2 billboardShader package\Tree.cginc" />
+     <None Include="Assets\RAIN\Editor\Shaders\NavMeshContourShader.shader" />
+     <None Include="Assets\AssetPacks\Hard Surface Free\HardSurface Shaders\HardSurfacePro Hidden Front Opaque Diffuse.shader" />
+     <None Include="Assets\RAIN\Editor\Shaders\WaypointShader.shader" />
+     <None Include="Assets\AssetPacks\Hard Surface Free\HardSurface Shaders\HardSurface Free Transparent Diffuse.shader" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
+     <None Include="Assets\AssetPacks\Hard Surface Free\HardSurface Shaders\HardSurfacePro Hidden Front Cut Out Diffuse.shader" />
+     <None Include="Assets\RAIN\Editor\ScriptTemplates\BehaviorTreeTemplate.xml" />
+     <None Include="Assets\AssetPacks\Hard Surface Free\HardSurface Shaders\HardSurface Free Opaque Diffuse.shader" />
+     <None Include="Assets\AssetPacks\TerrainShader\readme_terrainBumpShader.txt" />
+     <None Include="Assets\AssetPacks\DissolveShader\Shader\Dissolve_TexturCoords.shader" />
+     <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Light.shader" />
+     <None Include="Assets\AssetPacks\Hard Surface Free\HardSurface Shaders\HardSurfacePro Hidden Front Cut Out Opaque Specular.shader" />
+     <None Include="Assets\AssetPacks\MakeAGameNow-master\Assets\Shaders\FogTest.shader" />
+     <None Include="Assets\AssetPacks\TerrainShader\atsV2 UnityTerrainBump Package\TerrainReplacementAtsV2.shader" />
+     <None Include="Assets\AssetPacks\MakeAGameNow-master\Assets\Shaders\3dText.shader" />
+     <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
+     <None Include="Assets\AssetPacks\Hard Surface Free\HardSurface Shaders\HardSurface Free Opaque Bump.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Reflective.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Particles Additive Culled.shader" />
+     <None Include="Assets\AssetPacks\Elementals\!Readme.txt" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-LightedOutline.shader" />
+     <None Include="Assets\AssetPacks\Hard Surface Free\HardSurface Shaders\HardSurface Free Cut Out Opaque Specular.shader" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Lighted.shader" />
+     <None Include="Assets\AssetPacks\Hard Surface Free\HardSurface Shaders\HardSurfacePro Hidden Front Cut Out Bump.shader" />
+     <None Include="Assets\AssetPacks\Hard Surface Free\HardSurface Shaders\HardSurfacePro Hidden Front Transparent Diffuse.shader" />
+     <None Include="Assets\AssetPacks\MakeAGameNow-master\Assets\3rdParty\Music\Incompetech\The Complex CC3 License.txt" />
+     <None Include="Assets\RAIN\Editor\Shaders\VisualSensorRingShader.shader" />
+     <None Include="Assets\AssetPacks\Hard Surface Free\HardSurface Shaders\HardSurfacePro Hidden Front Opaque.shader" />
+     <None Include="Assets\AssetPacks\Hard Surface Free\HardSurface Shaders\HardSurface Free Cut Out Specular.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Vertex Colored Shaders\Mobile Vertex Colored.shader" />
+     <None Include="Assets\AssetPacks\Hard Surface Free\HardSurface Shaders\HardSurfacePro Hidden Front Cut Out Opaque Diffuse.shader" />
+     <None Include="Assets\AssetPacks\Hard Surface Free\HardSurface Shaders\HardSurfacePro Hidden Front Transparent Bump.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Only.shader" />
+     <None Include="Assets\RAIN\ReleaseNotes.txt" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap AlphaTest.shader" />
+     <None Include="Assets\RAIN\Editor\Shaders\AspectRingShader.shader" />
+     <None Include="Assets\AssetPacks\DissolveShader\Readme.txt" />
+     <None Include="Assets\AssetPacks\MakeAGameNow-master\Documents\GDD.txt" />
+     <None Include="Assets\RAIN\Editor\Shaders\NavMeshColliderShader.shader" />
+     <None Include="Assets\AssetPacks\Hard Surface Free\HardSurface Shaders\HardSurface Free Cut Out Bump.shader" />
+     <None Include="Assets\Standard Assets\Tessellation Shaders\BumpedSpecularDisplacement.shader" />
+     <None Include="Assets\AssetPacks\Hard Surface Free\HardSurface Shaders\HardSurface Free Opaque Specular.shader" />
+     <None Include="Assets\AssetPacks\Hard Surface Free\HardSurface Shaders\HardSurfacePro Hidden Front Opaque Specular.shader" />
+     <None Include="Assets\AssetPacks\Hard Surface Free\HardSurface Shaders\HardSurface SFX Depth Write Only.shader" />
+     <None Include="Assets\AssetPacks\TerrainShader\readme_vertexLitShader.txt" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="RAIN">
+ <HintPath>/Users/davidwang/FINAL GAME/Assets/RAIN/RAIN.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{49C2D18D-E11C-1058-1558-7AD0025806DE}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
+      <Project>{959D94C6-2BAE-5875-7976-DF92F44F3847}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
