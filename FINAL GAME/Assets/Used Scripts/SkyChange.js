@@ -13,6 +13,6 @@ var otherSkybox : Material;  // assign via inspector
 
 function OnTriggerEnter(other : Collider)
  {
-     if (other.tag == "Player0" && RenderSettings.skybox != otherSkybox)
+     if (other.tag == "Player1" && RenderSettings.skybox != otherSkybox)
           RenderSettings.skybox = otherSkybox;
  }

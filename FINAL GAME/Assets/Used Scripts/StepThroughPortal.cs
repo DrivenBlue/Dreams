@@ -16,10 +16,11 @@ public class StepThroughPortal : MonoBehaviour {
 	void OnTriggerEnter(Collider other) {
 
 		if (other.tag == "Player0") {
-			Application.LoadLevel (1);
+						Application.LoadLevel (1);
 						//other.transform.position = otherPortal.transform.position + otherPortal.transform.forward * 1;
 						//other.transform.rotation = other.transform.rotation;
-
-	}
+				} else if (other.tag == "Player1") {
+						Application.LoadLevel (2); 
+				}
 }
 }

@@ -1,13 +1,13 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Fading.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Used Scripts/SkyChange.js">
     <Files>
-      <File FileName="Assets/Used Scripts/MusicCollider.js" Line="1" Column="1" />
-      <File FileName="Assets/Used Scripts/NPCDialog.js" Line="1" Column="1" />
-      <File FileName="Assets/Used Scripts/PortalScenario1.cs" Line="1" Column="1" />
+      <File FileName="Assets/Used Scripts/UnderWater(REVISE).js" Line="1" Column="1" />
       <File FileName="Assets/Used Scripts/StepThroughPortal.cs" Line="1" Column="1" />
-      <File FileName="Assets/Used Scripts/FogBeat.cs" Line="1" Column="1" />
-      <File FileName="Assets/Fading.cs" Line="6" Column="17" />
+      <File FileName="Assets/StayPlatform.js" Line="1" Column="1" />
+      <File FileName="Assets/ProCore/Shared/About/README.txt" Line="1" Column="1" />
+      <File FileName="Assets/EasyRoads3D Free/_manual.html" Line="1" Column="1" />
+      <File FileName="Assets/Used Scripts/SkyChange.js" Line="16" Column="31" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
